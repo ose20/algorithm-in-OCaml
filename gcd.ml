@@ -1,4 +1,4 @@
-(* purpose: n m >= 0 を受け取り, 最大公約数を返す。実装の便宜上， gcd 0 0 は　0， 0 は単位元となっている *)
+(* purpose: n m >= 0 を受け取り, 最大公約数を返す。実装の便宜上， gcd 0 0 = 0， また 0 は単位元となっている *)
 (* gcd: int -> int -> int *)
 let rec gcd m n =
     if m <= n then gcd n m
